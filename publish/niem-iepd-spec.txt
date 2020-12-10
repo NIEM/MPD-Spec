@@ -60,7 +60,7 @@ Contents
 
    This specification defines several incremental stages of conformance to support iterative [IEPD] development, with conformance testing possible at each step instead of delayed to the end. Tool vendors should be able to build, adapt, and integrate software tools to assist in [IEPD] development and assembly, from raw parts to finished product.
 
-   This specification provides a standard version numbering scheme Section 5.2.3, IEPD Version Numbering Scheme (c:iepdVersionID), below. However, it does not provide guidance for managing or processing [IEPD] versions or their associated [information exchange package]s ([IEPs]). Creation and management of [IEPDs] is the responsibility of stakeholders and developers. As such, [IEPDs] have their own versioning processes, and are managed independently of the NIEM core and domains. The NIEM Management Office defines [IEPD] conformance, but [IEPD] development and management fall outside its scope. Nonetheless, the NIEM Management Office has developed guidance (through the NTAC) for managing [IEPDs], versioning [IEPDs], and processing their associated [IEPs]. This reference material can be found at https://niem.github.io/reference/artifacts/messages/iepd/.
+   This specification provides a standard version numbering scheme Section 5.2.3, IEPD Version Numbering Scheme (c:iepdVersionID), below. However, it does not provide guidance for managing or processing [IEPD] versions or their associated [information exchange packages] ([IEPs]). Creation and management of [IEPDs] is the responsibility of stakeholders and developers. As such, [IEPDs] have their own versioning processes, and are managed independently of the NIEM core and domains. The NIEM Management Office defines [IEPD] conformance, but [IEPD] development and management fall outside its scope. Nonetheless, the NIEM Management Office has developed guidance (through the NTAC) for managing [IEPDs], versioning [IEPDs], and processing their associated [IEPs]. This reference material can be found at https://niem.github.io/reference/artifacts/messages/iepd/.
 
    An [IEPD] defines one or more data exchanges, each occurring in the form of an [IEP]. This specification supports a variety of data exchange use cases, in which the [IEP] may be:
 
@@ -164,7 +164,7 @@ Contents
 
       A process that uses [XML schema documents] to identify the constituent [schema components] for an [XML Schema], and correctly sequences and structures these components to construct a single entity, the [XML Schema].
 
-   In other words, an [XML Schema] is the result of [XML schema assembly], i.e., processing a set of one or more [XML schema documents] into a single entity. That entity is most commonly an electronic image in the memory of a computer.
+   In other words, an [XML Schema] is the result of [XML schema assembly], i.e., processing a set of one or more [XML schema documents] into a single conceptual entity. That entity is most commonly substantiated as an electronic image in the memory of a computer.
 
    This specification often refers to the process of [XML schema validation], that is, validation of an instance XML document to confirm it adheres to the structure defined by a particular [XML Schema]. Generally, this should occur periodically during and after design time to ensure the conformance and quality of an information exchange definition (i.e., [XML schema documents]) and associated instance XML documents. However, local architecture or policy may dictate the need to validate more often, and in some cases may even require runtime validation. To be clear, NIEM conformance does not require that instance documents be validated at runtime.
 
@@ -316,7 +316,7 @@ Rule 3-1. IEPD conformance target identifier
 
       *  Must declare at least one or more [IEP conformance targets].
 
-      *  Contains sample instance XML documents that validate to XML schema document set.
+      *  Contains sample instance XML documents that validate to each XML schema document set.
 
 3.2.1.1. Well-Formed IEPD
 

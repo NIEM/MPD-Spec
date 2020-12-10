@@ -171,7 +171,7 @@
 					idref="Version-Numbering-Scheme"/>. However, it does not provide guidance
 					for managing or processing <termRef
 					term="information exchange package documentation">IEPD</termRef> versions or
-					their associated <termRef>information exchange package</termRef>s (<termRef term="information exchange package">IEPs</termRef>).
+					their associated <termRef term="information exchange package">information exchange packages</termRef> (<termRef term="information exchange package">IEPs</termRef>).
 					Creation and management of <termRef
 					term="information exchange package documentation">IEPDs</termRef> is the
 					responsibility of stakeholders and developers. As such, <termRef
@@ -415,11 +415,11 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 
 			<p>In other words, an <termRef>XML Schema</termRef> is the result of <termRef>XML schema
 					assembly</termRef>, i.e., processing a set of one or more <termRef
-					term="XML schema document">XML schema documents</termRef> into a single entity.
-				That entity is most commonly an electronic image in the memory of a computer.</p>
+					term="XML schema document">XML schema documents</termRef> into a single conceptual entity.
+				That entity is most commonly substantiated as an electronic image in the memory of a computer.</p>
 
-			<p>This specification often refers to the process of <termRef>XML schema
-					validation</termRef>, that is, validation of an instance XML document to confirm
+			<p>This specification often refers to the process of <termRef>XML schema validation</termRef>, 
+				that is, validation of an instance XML document to confirm
 				it adheres to the structure defined by a particular <termRef>XML Schema</termRef>.
 				Generally, this should occur periodically during and after design time to ensure the
 				conformance and quality of an information exchange definition (i.e., <termRef
@@ -785,7 +785,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 							>IEP conformance targets</termRef>.</p>
 					</li>
 					<li>
-						<p>Contains sample instance XML documents that validate to XML schema
+						<p>Contains sample instance XML documents that validate to each XML schema
 							document set.</p>
 					</li>
 				</ul>
