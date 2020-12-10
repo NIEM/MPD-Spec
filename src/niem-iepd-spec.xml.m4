@@ -52,7 +52,7 @@
 				term="information exchange package documentation">IEPD</termRef> is considered the
 			point of interoperability.</p>
 
-		<p>This specification assumes familiarity with the NIEM, its basic concepts, architecture,
+		<p>This specification assumes familiarity with NIEM, its basic concepts, architecture,
 			processes, design rules, and general conformance rules. NIEM training and reference
 			materials are located on the <ref idref="NIEM-TechHub"/>. In addition to those
 			materials, readers of this specification may wish to be familiar with the current versions of the following:</p>
@@ -146,7 +146,7 @@
 
 			<p>This specification applies to all NIEM <termRef
 					term="information exchange package documentation">information exchange package
-					documentation</termRef> (IEPD); and in particular, it focuses on the normative
+					documentation</termRef> (IEPD), and in particular it focuses on the normative
 				rules for IEPDs.</p>
 
 			<p>NIEM is a data layer for an information architecture. Files in an <termRef
@@ -168,30 +168,30 @@
 				product.</p>
 
 				<p>This specification provides a standard version numbering scheme <ref
-						idref="Version-Numbering-Scheme"/>. However, it does not provide guidance
+					idref="Version-Numbering-Scheme"/>. However, it does not provide guidance
 					for managing or processing <termRef
-						term="information exchange package documentation">IEPD</termRef> versions or
-					their associated <termRef term="information exchange package">IEPs</termRef>.
+					term="information exchange package documentation">IEPD</termRef> versions or
+					their associated <termRef>information exchange package</termRef>s (<termRef term="information exchange package">IEPs</termRef>).
 					Creation and management of <termRef
-						term="information exchange package documentation">IEPDs</termRef> is the
+					term="information exchange package documentation">IEPDs</termRef> is the
 					responsibility of stakeholders and developers. As such, <termRef
-						term="information exchange package documentation">IEPDs</termRef> have their
+					term="information exchange package documentation">IEPDs</termRef> have their
 					own versioning processes, and are managed independently of the NIEM core and
 					domains. The NIEM Management Office defines <termRef
-						term="information exchange package documentation">IEPD</termRef>
+					term="information exchange package documentation">IEPD</termRef>
 					conformance, but <termRef term="information exchange package documentation"
-						>IEPD</termRef> development and management fall outside its scope.
+					>IEPD</termRef> development and management fall outside its scope.
 					Nonetheless, the NIEM Management Office has developed guidance (through the
 					NTAC) for managing <termRef term="information exchange package documentation"
-						>IEPDs</termRef>, versioning <termRef
-						term="information exchange package documentation">IEPDs</termRef>, and
+					>IEPDs</termRef>, versioning <termRef
+					term="information exchange package documentation">IEPDs</termRef>, and
 					processing their associated <termRef term="information exchange package"
-						>IEPs</termRef>. This reference material can be found at
-						<link>https://niem.github.io/reference/artifacts/messages/iepd/</link>.</p>
+					>IEPs</termRef>. This reference material can be found at
+					<link>https://niem.github.io/reference/artifacts/messages/iepd/</link>.</p>
 
 				<p>An <termRef term="information exchange package documentation">IEPD</termRef>
 					defines one or more data exchanges, each occurring in the form of an
-						<termRef>information exchange package</termRef> (IEP). This specification
+						<termRef term="information exchange package">IEP</termRef>. This specification
 					supports a variety of data exchange use cases, in which the <termRef
 						term="information exchange package">IEP</termRef> may be:</p>
 				<ul>
@@ -219,8 +219,8 @@
 					</li>
 				</ul>
 			
-				<p>An IEPD developer is not required to revise an IEPD that existed before this
-				specification becomes effective. However, he/she is always encouraged to consider
+				<p>IEPD developers are not required to revise IEPDs that existed before this
+				specification becomes effective. However, they are always encouraged to consider
 				revising an IEPD to meet this specification, especially when making other
 				significant changes.</p>
 
@@ -797,7 +797,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 				
 				<p>An <termRef term="information exchange package documentation">IEPD</termRef> may
 					be constructed manually, but it is far more efficient to generate an IEPD
-					entirely or in part using NIEM-aware software tools. The existence of a
+					entirely or in part using NIEM-aware software tools. The existence of an
 						<termRef>information exchange package documentation</termRef>
 					<termRef>conformance target</termRef> has several advantages:</p>
 
@@ -823,7 +823,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 					</li>
 					<li>
 						<p>Facilitates the interoperability and use of multiple tools that can
-							export/import a <termRef>information exchange package
+							export/import an <termRef>information exchange package
 								documentation</termRef>.</p>
 					</li>
 				</ul>
@@ -900,7 +900,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
            
 	    <!--<li><p>has an <termRef>IEPD conformance target identifier</termRef> of <code>MACRO_IEPD_conformance_target_identifier</code>, and</p></li>-->
         <li><p>has an <termRef>IEPD conformance target identifier</termRef> of <code>MACRO_WF_IEPD</code>, and</p></li>
-        <li><p>adheres to all the rules within this specification for the <termRef>well-formed IEPD</termRef> <termRef>conformance target</termRef> (i.e., applicability code <q>WF-IEPD</q>.</p></li>
+        <li><p>adheres to all the rules within this specification for the <termRef>well-formed IEPD</termRef> <termRef>conformance target</termRef> (i.e., applicability code <q>WF-IEPD</q>).</p></li>
           </ul>
 	  <p>This term may be abbreviated <q>WF-IEPD</q>. Rules specifying this conformance target use the applicability code <q>WF-IEPD</q>.</p>
 	</definition>
@@ -917,7 +917,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 		</rule>
 	</ruleSection>
 				
-				<p>The schemas and other files within a <termRef>information exchange package
+				<p>The schemas and other files within an <termRef>information exchange package
 						documentation</termRef> are built on other specifications, including:</p>
 
 				<ul>
@@ -952,9 +952,9 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 						target</termRef> and in that connotation is defined as follows:</p>
 
 				<definition term="information exchange package">
-					<p>An XML <termRef>instance XML document</termRef> that conforms to the
+					<p>An <termRef>instance XML document</termRef> that conforms to the
 						conformance target defined by a <qName>c:IEPConformanceTarget</qName>
-						element in the <termRef>IEPD catalog document</termRef> of a
+						element in the <termRef>IEPD catalog document</termRef> of an
 							<termRef>information exchange package documentation</termRef>.</p>
 					<p>This term may be abbreviated <q>IEP</q>. Rules specifying this conformance
 						target use the applicability code <q>IEP</q>.</p>
@@ -969,7 +969,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 
 				<definition term="full NIEM information exchange package">
 					<p>An <termRef>information exchange package</termRef> that satisfies all the
-						validity constraints for its class as defined by a <termRef>information
+						validity constraints for its class as defined by an <termRef>information
 							exchange package documentation</termRef>, and that has an XML document
 						element that is declared in either a NIEM reference or extension schema
 						document.</p>
@@ -2001,7 +2001,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 
 				<p>The regular expression notation used above is from <ref idref="W3-XML"/>
 					<link href="http://www.w3.org/TR/2008/REC-xml-20081126/#sec-notation"
-						>#sec-notation</link>.</p>
+						>Notation</link>.</p>
 
 				<p>Note that the absence of a <code>status</code> string in the version number
 					indicates that the version has been baselined and published.</p>
@@ -2330,7 +2330,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 							>IEPD</termRef> (2) has decided to reuse the
 							<code>base-xsd/extension/req1.xsd</code> artifact in <termRef
 							term="information exchange package documentation">IEPD</termRef> (1)
-						as-is. He/she can optionally create an IEPD catalog
+						as-is. They can optionally create an IEPD catalog
 							<qName>c:ExtensionSchemaDocument</qName> entry for this artifact
 						(assuming it is an extension schema document), and add the attribute:</p>
 					<blockquote>
@@ -2393,7 +2393,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 						using a relative URI with a fragment.</p>
 
 					<p>Despite its simplicity, <qName>c:pathURI</qName> comes with over a dozen
-						rules that help to define a <termRef>information exchange package
+						rules that help to define an <termRef>information exchange package
 							documentation</termRef>. These rules ensure that every
 							<qName>c:pathURI</qName> attribute value in a well-formed <termRef
 							term="information exchange package documentation">IEPD</termRef>
@@ -2928,8 +2928,8 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 			<title>ReadMe Artifact</title>
 
 			<definition term="readme artifact">
-				<p>An informal documentation artifact contained in a <termRef>information exchange
-						package documentation</termRef> that serves as the initial general source of
+				<p>An informal documentation artifact contained in an <termRef>information exchange
+					package documentation</termRef> that serves as the initial general source of
 					human readable descriptive or instructional information. A <em>readme</em>
 					artifact or file (formerly known as a <em>master document</em>) may index or
 					reference other more specific documentation or other explanatory materials
@@ -3061,7 +3061,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 
 				<ul>
 					<li>
-						<p>Executive summary (especially for a lengthy readme artifact></p>
+						<p>Executive summary (especially for a lengthy readme artifact)</p>
 					</li>
 					<li>
 						<p>Use cases</p>
@@ -3788,9 +3788,9 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 				self-asserted.</p>
 
 			<p>In the absence of a formal NIEM certification process, both weak and strong
-				conformance assertions will exist. An <termRef
-					term="information exchange package documentation">IEPD</termRef> user or
-				implementer (who is not the author) must decide his/her level of confidence in the
+				conformance assertions will exist. <termRef
+					term="information exchange package documentation">IEPD</termRef> users or
+				implementers (who are not the author) must decide their level of confidence in the
 				assertion. A self-signed artifact that simply claims an <termRef
 					term="information exchange package documentation">IEPD</termRef> is
 				NIEM-conformant may be considered weak. On the other hand, a stronger self-assertion

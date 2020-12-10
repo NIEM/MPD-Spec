@@ -26,7 +26,7 @@ Contents
 
    This specification defines rules and practices for constructing and packaging a National Information Exchange Model (NIEM)[information exchange package documentation] (IEPD). To the NIEM program, the [IEPD] is considered the point of interoperability.
 
-   This specification assumes familiarity with the NIEM, its basic concepts, architecture, processes, design rules, and general conformance rules. NIEM training and reference materials are located on the [NIEM TechHub]. In addition to those materials, readers of this specification may wish to be familiar with the current versions of the following:
+   This specification assumes familiarity with NIEM, its basic concepts, architecture, processes, design rules, and general conformance rules. NIEM training and reference materials are located on the [NIEM TechHub]. In addition to those materials, readers of this specification may wish to be familiar with the current versions of the following:
 
       *   [NIEM Conformance Specification] 
 
@@ -54,15 +54,15 @@ Contents
 
 1.3. Scope
 
-   This specification applies to all NIEM [information exchange package documentation] (IEPD); and in particular, it focuses on the normative rules for IEPDs.
+   This specification applies to all NIEM [information exchange package documentation] (IEPD), and in particular it focuses on the normative rules for IEPDs.
 
    NIEM is a data layer for an information architecture. Files in an [IEPD] generally define XML Schema types and declare XML elements and attributes to use in payloads for information exchanges. While an [IEPD] may also contain files from layers beyond the data layer, this specification is not intended to define details of other architectural layers. Such files are generally present only to provide additional context, understanding, or assistance for implementing the exchange of payloads.
 
    This specification defines several incremental stages of conformance to support iterative [IEPD] development, with conformance testing possible at each step instead of delayed to the end. Tool vendors should be able to build, adapt, and integrate software tools to assist in [IEPD] development and assembly, from raw parts to finished product.
 
-   This specification provides a standard version numbering scheme Section 5.2.3, IEPD Version Numbering Scheme (c:iepdVersionID), below. However, it does not provide guidance for managing or processing [IEPD] versions or their associated [IEPs]. Creation and management of [IEPDs] is the responsibility of stakeholders and developers. As such, [IEPDs] have their own versioning processes, and are managed independently of the NIEM core and domains. The NIEM Management Office defines [IEPD] conformance, but [IEPD] development and management fall outside its scope. Nonetheless, the NIEM Management Office has developed guidance (through the NTAC) for managing [IEPDs], versioning [IEPDs], and processing their associated [IEPs]. This reference material can be found at https://niem.github.io/reference/artifacts/messages/iepd/.
+   This specification provides a standard version numbering scheme Section 5.2.3, IEPD Version Numbering Scheme (c:iepdVersionID), below. However, it does not provide guidance for managing or processing [IEPD] versions or their associated [information exchange package]s ([IEPs]). Creation and management of [IEPDs] is the responsibility of stakeholders and developers. As such, [IEPDs] have their own versioning processes, and are managed independently of the NIEM core and domains. The NIEM Management Office defines [IEPD] conformance, but [IEPD] development and management fall outside its scope. Nonetheless, the NIEM Management Office has developed guidance (through the NTAC) for managing [IEPDs], versioning [IEPDs], and processing their associated [IEPs]. This reference material can be found at https://niem.github.io/reference/artifacts/messages/iepd/.
 
-   An [IEPD] defines one or more data exchanges, each occurring in the form of an [information exchange package] (IEP). This specification supports a variety of data exchange use cases, in which the [IEP] may be:
+   An [IEPD] defines one or more data exchanges, each occurring in the form of an [IEP]. This specification supports a variety of data exchange use cases, in which the [IEP] may be:
 
       *  An XML document with a NIEM-defined XML document element.
 
@@ -74,7 +74,7 @@ Contents
 
       *  A non-NIEM format in which optional NIEM elements do not occur (for example, optional hospital information, provided as a NIEM element). 
 
-   An IEPD developer is not required to revise an IEPD that existed before this specification becomes effective. However, he/she is always encouraged to consider revising an IEPD to meet this specification, especially when making other significant changes.
+   IEPD developers are not required to revise IEPDs that existed before this specification becomes effective. However, they are always encouraged to consider revising an IEPD to meet this specification, especially when making other significant changes.
 
 1.4. Audience
 
@@ -320,7 +320,7 @@ Rule 3-1. IEPD conformance target identifier
 
 3.2.1.1. Well-Formed IEPD
 
-   An [IEPD] may be constructed manually, but it is far more efficient to generate an IEPD entirely or in part using NIEM-aware software tools. The existence of a [information exchange package documentation] [conformance target] has several advantages:
+   An [IEPD] may be constructed manually, but it is far more efficient to generate an IEPD entirely or in part using NIEM-aware software tools. The existence of an [information exchange package documentation] [conformance target] has several advantages:
 
       *  Facilitates the existence of many incremental states from start to finish that are checkpoints for well-formedness.
 
@@ -330,7 +330,7 @@ Rule 3-1. IEPD conformance target identifier
 
       *  Avoids a need to build a complete [IEPD] before automated correctness checks can be applied (since well-formedness can be checked at many stages of development).
 
-      *  Facilitates the interoperability and use of multiple tools that can export/import a [information exchange package documentation].
+      *  Facilitates the interoperability and use of multiple tools that can export/import an [information exchange package documentation].
 
    Because an IEPD is always a directory tree, for the purpose of transporting, up/downloading, and archiving for long term storage, an IEPD is packaged as a [ZIP file].
 
@@ -368,7 +368,7 @@ Rule 3-1. IEPD conformance target identifier
 
          *  has an [IEPD conformance target identifier] of http://reference.niem.gov/niem/specification/iepd/5.0/#WF-IEPD, and
 
-         *  adheres to all the rules within this specification for the [well-formed IEPD] [conformance target] (i.e., applicability code "WF-IEPD".
+         *  adheres to all the rules within this specification for the [well-formed IEPD] [conformance target] (i.e., applicability code "WF-IEPD").
 
       This term may be abbreviated "WF-IEPD". Rules specifying this conformance target use the applicability code "WF-IEPD".
 
@@ -382,7 +382,7 @@ Rule 3-2. IEPD is well-formed
 
       An [IEPD] MUST have an [IEPD conformance target identifier] of http://reference.niem.gov/niem/specification/iepd/5.0/#WF-IEPD.
 
-   The schemas and other files within a [information exchange package documentation] are built on other specifications, including:
+   The schemas and other files within an [information exchange package documentation] are built on other specifications, including:
 
       *   [NIEM Naming and Design Rules] 
 
@@ -396,7 +396,7 @@ Rule 3-2. IEPD is well-formed
 
    [Definition: information exchange package]
 
-      An XML [instance XML document] that conforms to the conformance target defined by a c:IEPConformanceTarget element in the [IEPD catalog document] of a [information exchange package documentation].
+      An [instance XML document] that conforms to the conformance target defined by a c:IEPConformanceTarget element in the [IEPD catalog document] of an [information exchange package documentation].
 
       This term may be abbreviated "IEP". Rules specifying this conformance target use the applicability code "IEP".
 
@@ -404,7 +404,7 @@ Rule 3-2. IEPD is well-formed
 
    [Definition: full NIEM information exchange package]
 
-      An [information exchange package] that satisfies all the validity constraints for its class as defined by a [information exchange package documentation], and that has an XML document element that is declared in either a NIEM reference or extension schema document.
+      An [information exchange package] that satisfies all the validity constraints for its class as defined by an [information exchange package documentation], and that has an XML document element that is declared in either a NIEM reference or extension schema document.
 
       This term may be abbreviated "full NIEM IEP". Rules specifying this conformance target use the applicability code "FN-IEP".
 
@@ -803,7 +803,7 @@ Rule 5-9. IEPD Version Number Syntax
 
          *  rev indicates very minor revision that does not impact schema validation.
 
-   The regular expression notation used above is from [W3C XML 1.0] #sec-notation.
+   The regular expression notation used above is from [W3C XML 1.0] Notation.
 
    Note that the absence of a status string in the version number indicates that the version has been baselined and published.
 
@@ -945,7 +945,7 @@ Rule 5-13. IEPD Artifact URI Syntax
 
       2.  http://www.abc.org/niem-iepd/order/2.1.2rev3/ 
 
-   The author of [IEPD] (2) has decided to reuse the base-xsd/extension/req1.xsd artifact in [IEPD] (1) as-is. He/she can optionally create an IEPD catalog c:ExtensionSchemaDocument entry for this artifact (assuming it is an extension schema document), and add the attribute:
+   The author of [IEPD] (2) has decided to reuse the base-xsd/extension/req1.xsd artifact in [IEPD] (1) as-is. They can optionally create an IEPD catalog c:ExtensionSchemaDocument entry for this artifact (assuming it is an extension schema document), and add the attribute:
 
        c:externalURI="http://example.org/niem-iepd/pmix/3.0/#base-xsd/extension/req1.xsd" 
 
@@ -967,7 +967,7 @@ Rule 5-13. IEPD Artifact URI Syntax
 
    Note that per Table Table 5-1, Summary of "RFC 3986 URI: Generic Syntax", below, and Table Table 5-2, Summary of IEPD URI attributes, below, a local URI may contain an optional fragment. Although c:pathURI has no use for a URI with a fragment, IEPD documentation artifacts could reference a subpart within a local artifact by using a relative URI with a fragment.
 
-   Despite its simplicity, c:pathURI comes with over a dozen rules that help to define a [information exchange package documentation]. These rules ensure that every c:pathURI attribute value in a well-formed [IEPD] resolves to a correct local resource:
+   Despite its simplicity, c:pathURI comes with over a dozen rules that help to define an [information exchange package documentation]. These rules ensure that every c:pathURI attribute value in a well-formed [IEPD] resolves to a correct local resource:
 
 Rule 5-14. c:pathURI Resolves to a Resource
 
@@ -1189,7 +1189,7 @@ Rule 5-34. IEPD Has a Change Log
 
    [Definition: readme artifact]
 
-      An informal documentation artifact contained in a [information exchange package documentation] that serves as the initial general source of human readable descriptive or instructional information. A readme artifact or file (formerly known as a master document) may index or reference other more specific documentation or other explanatory materials within the [IEPD].
+      An informal documentation artifact contained in an [information exchange package documentation] that serves as the initial general source of human readable descriptive or instructional information. A readme artifact or file (formerly known as a master document) may index or reference other more specific documentation or other explanatory materials within the [IEPD].
 
 Rule 5-35. Readme Describes Purpose, Scope, Business Value, etc.
 
@@ -1245,7 +1245,7 @@ Rule 5-36. IEPD Has a ReadMe Artifact
 
    IEPD documentation types and formats will vary with the methodologies and tools used to develop them. Most of this documentation will likely be typical of that generated for data-oriented software projects. Some documentation may only require sections in the [readme artifact]. Other documentation may be more suitable as separate artifacts that are referenced and explained by a section in the [readme artifact] (such as diagrams, large tables, data dictionaries, test results/reports, etc.). The following are some common examples of sections in or separate artifacts associated with the [readme artifact]:
 
-      *  Executive summary (especially for a lengthy readme artifact>
+      *  Executive summary (especially for a lengthy readme artifact)
 
       *  Use cases
 
@@ -1513,7 +1513,7 @@ Rule 5-45. IEPD Has Conformance Assertion
 
    A [conformance assertion] provides information to increase the level of confidence that an [IEPD] was checked for NIEM conformance and quality. It does NOT constitute a guarantee or contract. In fact, a conformance assertion can be self-asserted.
 
-   In the absence of a formal NIEM certification process, both weak and strong conformance assertions will exist. An [IEPD] user or implementer (who is not the author) must decide his/her level of confidence in the assertion. A self-signed artifact that simply claims an [IEPD] is NIEM-conformant may be considered weak. On the other hand, a stronger self-assertion could provide information that may include (but is not limited to):
+   In the absence of a formal NIEM certification process, both weak and strong conformance assertions will exist. [IEPD] users or implementers (who are not the author) must decide their level of confidence in the assertion. A self-signed artifact that simply claims an [IEPD] is NIEM-conformant may be considered weak. On the other hand, a stronger self-assertion could provide information that may include (but is not limited to):
 
       *  Date of assertion
 
@@ -1792,12 +1792,12 @@ Appendix A. IEPD Catalog XML Schema Document
      ct:conformanceTargets="http://reference.niem.gov/niem/specification/naming-and-design-rules/5.0/#ReferenceSchemaDocument"
      targetNamespace="http://reference.niem.gov/niem/resource/iepd/catalog/5.0/"
      version="5.0"
-     xmlns:appinfo="http://release.niem.gov/niem/appinfo/4.0/"
+     xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/"
      xmlns:c="http://reference.niem.gov/niem/resource/iepd/catalog/5.0/"
      xmlns:ct="http://release.niem.gov/niem/conformanceTargets/3.0/"
-     xmlns:nc="http://release.niem.gov/niem/niem-core/4.0/"
+     xmlns:nc="http://release.niem.gov/niem/niem-core/5.0/"
      xmlns:niem-xs="http://release.niem.gov/niem/proxy/xsd/4.0/"
-     xmlns:structures="http://release.niem.gov/niem/structures/4.0/"
+     xmlns:structures="http://release.niem.gov/niem/structures/5.0/"
      xmlns:xs="http://www.w3.org/2001/XMLSchema">
      <xs:annotation>
        <xs:documentation>Information Exchange Package Documentation (IEPD) Catalog schema document.  Defines an iepd-catalog.xml artifact for IEPDs.  The purpose of this schema is to facilitate consistent declaration of IEPD content, conformance targets, metadata, and lineage to process, display, review, register, search, and discover IEPDs efficiently, as well as instructions for validating IEPs to IEPDs.  This XML Schema document is supported by a subset of NIEM 4.1.
