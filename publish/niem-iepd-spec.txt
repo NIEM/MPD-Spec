@@ -2,7 +2,7 @@ National Information Exchange Model -- Information Exchange Package Documentatio
 
 Version 5.0beta1
 
-November 13, 2020
+December 17, 2020
 
 NIEM Technical Architecture Committee (NTAC)
 
@@ -42,7 +42,7 @@ Contents
 
 1.1. Background
 
-   An [IEPD] is a normative specification for XML [data components] in the format of the World Wide Web Consortium (W3C) XML Schema Definition Language [W3C XML Schema Part 2 Datatypes], [W3C XML Schema Part 1 Structures]. [IEPD] schema documents either (1) define the semantics and structure for NIEM reusable [data components], or (2) define implementable NIEM exchange instance XML documents in W3C Extensible Markup Language (XML) [W3C XML 1.0].
+   An [IEPD] is a normative specification for XML [data components] in the format of the World Wide Web Consortium (W3C) XML Schema Definition Language [W3C XML Schema Part 2 Datatypes], [W3C XML Schema Part 1 Structures]. [IEPD] schema documents define implementable NIEM exchange instance XML documents in W3C Extensible Markup Language (XML) [W3C XML 1.0].
 
    An [IEPD] is ready to publish and use when it conforms to NIEM specifications, and has been properly packaged with the schemas, documentation, and supplemental files needed to implement or reuse it. [IEPD] content design, development, and assembly may be difficult and time-consuming, especially if done manually. Developers will often prefer to build and modify an IEPD with the help of software tools, which can significantly reduce the complexity of designing, constructing, changing, and managing IEPDs. In order to reduce ambiguity and to facilitate interoperable and effective tool support, this baseline specification imposes some degree of consistency on the terminology, syntax, semantics, and composition of IEPDs.
 
@@ -69,10 +69,6 @@ Contents
       *  An XML document with a NIEM-defined payload element wrapped inside a non-NIEM envelope element (for example, SOAP, [Logical Entity Exchange Specifications] (LEXS), Trusted Data Format (TDF), or an OGC Web Service document element).
 
       *  Multiple NIEM-defined payloads packaged together in a single document.
-
-      *  A non-NIEM format defined with no NIEM content at all (for example, a data exchange specified by a GML application schema). 
-
-      *  A non-NIEM format in which optional NIEM elements do not occur (for example, optional hospital information, provided as a NIEM element). 
 
    IEPD developers are not required to revise IEPDs that existed before this specification becomes effective. However, they are always encouraged to consider revising an IEPD to meet this specification, especially when making other significant changes.
 
@@ -342,7 +338,7 @@ Rule 3-1. IEPD conformance target identifier
 
    All IEPDs share several commonalities; each IEPD:
 
-      *  Is a set of [artifacts], whose principal content is [XML schema documents] (XSD), the purpose for which is to define and declare reusable [data components] for information exchanges or to define the exchanges themselves.
+      *  Is a set of [artifacts], whose principal content is [XML schema documents] (XSD), the purpose for which is to define the exchanges themselves.
 
       *  Requires a self-documenting iepd-catalog.xml artifact containing metadata and a listing of its key artifacts. This artifact establishes identification metadata, [conformance targets], purpose, general content, lineage, and other metadata.
 
@@ -1787,7 +1783,7 @@ Rule 7-9. Key IEPD Resources Are Local Resources
 
 Appendix A. IEPD Catalog XML Schema Document
 
-   <?xml version="1.0" encoding="US-ASCII"?>
+   <?xml version="1.0" encoding="UTF-8"?>
    <xs:schema
      ct:conformanceTargets="http://reference.niem.gov/niem/specification/naming-and-design-rules/5.0/#ReferenceSchemaDocument"
      targetNamespace="http://reference.niem.gov/niem/resource/iepd/catalog/5.0/"
@@ -1796,11 +1792,11 @@ Appendix A. IEPD Catalog XML Schema Document
      xmlns:c="http://reference.niem.gov/niem/resource/iepd/catalog/5.0/"
      xmlns:ct="http://release.niem.gov/niem/conformanceTargets/3.0/"
      xmlns:nc="http://release.niem.gov/niem/niem-core/5.0/"
-     xmlns:niem-xs="http://release.niem.gov/niem/proxy/xsd/4.0/"
+     xmlns:niem-xs="http://release.niem.gov/niem/proxy/niem-xs/5.0/"
      xmlns:structures="http://release.niem.gov/niem/structures/5.0/"
      xmlns:xs="http://www.w3.org/2001/XMLSchema">
      <xs:annotation>
-       <xs:documentation>Information Exchange Package Documentation (IEPD) Catalog schema document.  Defines an iepd-catalog.xml artifact for IEPDs.  The purpose of this schema is to facilitate consistent declaration of IEPD content, conformance targets, metadata, and lineage to process, display, review, register, search, and discover IEPDs efficiently, as well as instructions for validating IEPs to IEPDs.  This XML Schema document is supported by a subset of NIEM 4.1.
+       <xs:documentation>Information Exchange Package Documentation (IEPD) Catalog schema document.  Defines an iepd-catalog.xml artifact for IEPDs.  The purpose of this schema is to facilitate consistent declaration of IEPD content, conformance targets, metadata, and lineage to process, display, review, register, search, and discover IEPDs efficiently, as well as instructions for validating IEPs to IEPDs.  This XML Schema document is supported by a subset of NIEM 5.0.
        </xs:documentation>
        <xs:appinfo>
          <appinfo:LocalTerm term="EXI" literal="Efficient XML Interchange"/>
@@ -1815,9 +1811,11 @@ Appendix A. IEPD Catalog XML Schema Document
          <appinfo:LocalTerm term="Wantlist" definition="An XML file that represents a                                                       NIEM schema document subset; used by NIEM Schema Subset Generation                                                       Tool to input/output a schema document subset"/>
        </xs:appinfo>
      </xs:annotation>
-     <xs:import namespace="http://release.niem.gov/niem/structures/4.0/"/>
-     <xs:import namespace="http://release.niem.gov/niem/niem-core/4.0/"/>
-     <xs:import namespace="http://release.niem.gov/niem/proxy/xsd/4.0/"/>
+     <xs:import namespace="http://release.niem.gov/niem/appinfo/5.0/" schemaLocation="niem/xsd/utility/appinfo.xsd"/>
+     <xs:import namespace="http://release.niem.gov/niem/conformanceTargets/3.0/" schemaLocation="niem/xsd/utility/conformanceTargets.xsd"/>
+     <xs:import namespace="http://release.niem.gov/niem/niem-core/5.0/" schemaLocation="niem/xsd/niem-core.xsd"/>
+     <xs:import namespace="http://release.niem.gov/niem/proxy/niem-xs/5.0/" schemaLocation="niem/xsd/adapters/niem-xs.xsd"/>
+     <xs:import namespace="http://release.niem.gov/niem/structures/5.0/" schemaLocation="niem/xsd/utility/structures.xsd"/>
      <xs:element name="IEPDCatalog" type="c:IEPDCatalogType">
        <xs:annotation>
          <xs:documentation>An IEPD catalog that describes IEPD artifacts and metadata.
@@ -2587,55 +2585,52 @@ Appendix B. Example IEPD Catalog Document for Cursor on Target
 
    Below is a simple example of an IEPD catalog document for a Cursor on Target [IEPD]. The entire [IEPD] and other example IEPDs and supporting artifacts are available on the [NIEM Template IEPD repository].
 
-   <?xml version="1.0" encoding="US-ASCII"?>
-   <c:IEPDCatalog 
-       xmlns:cot="http://example.com/cot-niem/0.9/"
-       xmlns:c="http://reference.niem.gov/niem/resource/iepd/catalog/4.0/"
-       xmlns:structures="http://release.niem.gov/niem/structures/4.0/"
-       xmlns:nc="http://release.niem.gov/niem/niem-core/4.0/"
-           c:iepdURI="http://example.com/cot-iepd/0.9rc2/" 
-           c:iepdConformanceTargetIdentifierURIList=
-             "http://reference.niem.gov/niem/specification/model-package-description/4.0/#IEPD"
-           c:iepdName="cot-iepd" 
-           c:iepdVersionID="0.9rc1">
-           <c:IEPDInformation>
-               <c:AuthoritativeSource> 
-                   <nc:EntityOrganization>
-                       <nc:OrganizationName>CoT Program Office</nc:OrganizationName>
-                       <nc:OrganizationPrimaryContactInformation>
-   			    <nc:ContactWebsiteURI>
-   				    https://partners.mitre.org/sites/CoTUserGroup/
-   			    </nc:ContactWebsiteURI>
-                       </nc:OrganizationPrimaryContactInformation>
-                   </nc:EntityOrganization>
-               </c:AuthoritativeSource>
-               <c:CreationDate>2014-08-04</c:CreationDate>
-               <c:StatusText>Release Candidate</c:StatusText>
-           </c:IEPDInformation>
-           <c:IEPConformanceTarget structures:id="CoT-NIEM-IEP">
-               <nc:DescriptionText>
+   <?xml version="1.0" encoding="UTF-8"?>
+   <c:IEPDCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://reference.niem.gov/niem/resource/iepd/catalog/5.0/ ../iepd-catalog.xsd"
+       xmlns:c="http://reference.niem.gov/niem/resource/iepd/catalog/5.0/"
+       xmlns:nc="http://release.niem.gov/niem/niem-core/5.0/"
+       xmlns:structures="http://release.niem.gov/niem/structures/5.0/"
+       xmlns:cot="http://example.com/cot-niem/0.9/" c:iepdURI="http://example.com/cot-iepd/0.9rc2/"
+       c:iepdConformanceTargetIdentifierURIList="http://reference.niem.gov/niem/specification/model-package-description/4.0/#IEPD"
+       c:iepdName="cot-iepd" c:iepdVersionID="0.9rc1">
+       <c:IEPDInformation>
+           <c:AuthoritativeSource>
+               <nc:EntityOrganization>
+                   <nc:OrganizationName>CoT Program Office</nc:OrganizationName>
+                   <nc:OrganizationPrimaryContactInformation>
+                       <nc:ContactWebsiteURI> https://partners.mitre.org/sites/CoTUserGroup/
+                       </nc:ContactWebsiteURI>
+                   </nc:OrganizationPrimaryContactInformation>
+               </nc:EntityOrganization>
+           </c:AuthoritativeSource>
+           <c:CreationDate>2014-08-04</c:CreationDate>
+           <c:StatusText>Release Candidate</c:StatusText>
+       </c:IEPDInformation>
+       <c:IEPConformanceTarget structures:id="CoT-NIEM-IEP">
+           <nc:DescriptionText>
                    An IEP class equivalent to Cursor-on-Target 2.0 messages
                </nc:DescriptionText>
-               <c:HasDocumentElement c:qualifiedNameList="cot:Event"/>
-               <c:XMLSchemaValid>
-                   <c:XMLCatalog c:pathURI="base-xsd/xml-catalog.xml"/>
-               </c:XMLSchemaValid>
-               <c:SchematronValid>
-                   <c:SchematronSchema c:pathURI="schematron/business-rules.sch"/>
-               </c:SchematronValid>
-               <c:EXIXMLSchema>
-                   <c:XMLCatalog c:pathURI="exi-xsd/exi-xml-catalog.xml"/>
-                   <c:XMLSchemaDocument c:pathURI="extension/cot-niem.xsd"/>
-               </c:EXIXMLSchema>
-               <c:IEPSampleXMLDocument c:pathURI="iep-samples/iep1.xml"/>
-           </c:IEPConformanceTarget>
-           <c:ReadMe c:pathURI="00-README.txt"/>
-           <c:IEPDChangeLog c:pathURI="01-changelog.txt"></c:IEPDChangeLog>
-           <c:ConformanceAssertion c:pathURI="02-conformance.txt"/>
-           <c:Wantlist c:pathURI="base-xsd/niem/wantlist.xml"/>
-           <c:ExtensionSchemaDocument c:pathURI="base-xsd/extension/cot-niem.xsd"/>
-           <c:ExtensionSchemaDocument c:pathURI="base-xsd/extension/cot-niem-codes.xsd"/>
-           <c:ReferenceSchemaDocument c:pathURI="base-xsd/extension/milops-future-ref.xsd"/>
+           <c:HasDocumentElement c:qualifiedNameList="cot:Event"/>
+           <c:XMLSchemaValid>
+               <c:XMLCatalog c:pathURI="base-xsd/xml-catalog.xml"/>
+           </c:XMLSchemaValid>
+           <c:SchematronValid>
+               <c:SchematronSchema c:pathURI="schematron/business-rules.sch"/>
+           </c:SchematronValid>
+           <c:EXIXMLSchema>
+               <c:XMLCatalog c:pathURI="exi-xsd/exi-xml-catalog.xml"/>
+               <c:XMLSchemaDocument c:pathURI="extension/cot-niem.xsd"/>
+           </c:EXIXMLSchema>
+           <c:IEPSampleXMLDocument c:pathURI="iep-samples/iep1.xml"/>
+       </c:IEPConformanceTarget>
+       <c:ReadMe c:pathURI="00-README.txt"/>
+       <c:IEPDChangeLog c:pathURI="01-changelog.txt"/>
+       <c:ConformanceAssertion c:pathURI="02-conformance.txt"/>
+       <c:Wantlist c:pathURI="base-xsd/niem/wantlist.xml"/>
+       <c:ExtensionSchemaDocument c:pathURI="base-xsd/extension/cot-niem.xsd"/>
+       <c:ExtensionSchemaDocument c:pathURI="base-xsd/extension/cot-niem-codes.xsd"/>
+       <c:ReferenceSchemaDocument c:pathURI="base-xsd/extension/milops-future-ref.xsd"/>
    </c:IEPDCatalog>
    
 

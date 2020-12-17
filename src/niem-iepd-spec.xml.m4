@@ -7,7 +7,7 @@
 	<title>National Information Exchange Model <char name="mdash"/> Information Exchange Package
 		Documentation Specification</title>
 	<version>MACRO_document_version</version>
-	<date>2020-11-13</date>
+	<date>2020-12-17</date>
 	<author>NIEM Technical Architecture Committee (NTAC)</author>
 
 	<image src="img/niem-logo-sm.png"/>
@@ -95,8 +95,7 @@
 				Schema Definition Language <ref idref="W3-XML-Schema-Datatypes"/>, <ref
 					idref="W3-XML-Schema-Structures"/>. <termRef
 					term="information exchange package documentation">IEPD</termRef> schema
-				documents either (1) define the semantics and structure for NIEM reusable <termRef
-					term="data component">data components</termRef>, or (2) define implementable
+				documents define implementable
 				NIEM exchange instance XML documents in W3C Extensible Markup Language (XML) <ref
 					idref="W3-XML"/>.</p>
 
@@ -207,15 +206,6 @@
 					<li>
 						<p>Multiple NIEM-defined payloads packaged together in a single
 							document.</p>
-					</li>
-					<li>
-						<p>A non-NIEM format defined with no NIEM content at all (for example, a
-							data exchange specified by a GML application schema). </p>
-					</li>
-					<li>
-						<p>A non-NIEM format in which optional NIEM elements do not occur (for
-							example, optional hospital information, provided as a NIEM element).
-						</p>
 					</li>
 				</ul>
 			
@@ -846,9 +836,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 					<li>
 						<p>Is a set of <termRef term="artifact">artifacts</termRef>, whose principal
 							content is <termRef term="XML schema document">XML schema
-								documents</termRef> (XSD), the purpose for which is to define and
-							declare reusable <termRef term="data component">data
-								components</termRef> for information exchanges or to define the
+								documents</termRef> (XSD), the purpose for which is to define the
 							exchanges themselves.</p>
 					</li>
 					<li>
@@ -4477,8 +4465,6 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 		</p>
 	</section>
 
-
-
 	<section id="IEPD-Catalog-Document-CoT" isAppendix="true">
 		<title>Example IEPD Catalog Document for Cursor on Target</title>
 		<p>Below is a simple example of an IEPD catalog document for a <em>Cursor on Target</em>
@@ -4490,8 +4476,6 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 			<char name="nbsp"/>
 		</p>
 	</section>
-
-
 
 	<section id="IEPD-Artifacts" isAppendix="true">
 		<title>Common IEPD Artifacts</title>
