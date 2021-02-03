@@ -454,7 +454,7 @@ Rule 3-2. IEPD is well-formed
 
    [Definition: schema document subset]
 
-      An XML schema document set based on a reference schema document set intended to ensure that any [instance XML document] valid to the schema document subset is also valid to the reference schema document set.
+      An XML schema document set based on a reference schema document set for which any [instance XML document] valid to the schema document subset is also valid to the reference schema document set.
 
    The primary purpose for a schema document subset is to reduce and constrain the scope and size of a full NIEM reference schema document set for use within an [IEPD]. A schema document subset is derived from a reference schema document set (such as a NIEM release) by applying subset operations (See Section 4.2.2, Constructing a Schema Document Subset, below). Also, note that employing a subset of a reference schema document set within an [IEPD] is optional; it is completely valid to reuse NIEM reference schema documents as-is within IEPDs.
 
@@ -670,7 +670,7 @@ Rule 5-2. IEPD Catalog Document Valid to iepd-catalog.xsd
 
    This rule requires validation with iepd-catalog.xsd, which also imports a NIEM schema subset. So, validation of the [IEPD catalog document] must be done in the context of the catalog schema document, its associated NIEM subset, and iepd-catalog.xml. This does not require the [IEPD] to contain copies of the catalog schema document or the schema subset (since these are standard for all IEPDs). However, a validation tool must have access to all three XML documents.
 
-   The XML schema documents required to validate an [IEPD catalog document] are available on the [NIEM Template IEPD repository]. Note that validators often require references to schemas and their imports. This may be done through a command line instruction or by adding a schemaLocation attribute to xs:import statements.
+   The XML schema documents required to validate an [IEPD catalog document] are available on the [NIEM Template IEPD repository]. Note that validators often require references to schemas and their imports. This may be done through a command line instruction or by adding a schemaLocation attribute to xs:import statements. A sample [IEPD catalog document], Appendix B, Example IEPD Catalog Document for Cursor on Target, below, is included in this specification.
 
 5.1.1. IEPD Catalog as a Table of Contents
 
@@ -1377,7 +1377,7 @@ Rule 5-39. [IEPD] Declares One or More IEP Conformance Targets
 
 5.6.2.1. c:ValidityConstraintWithContext
 
-   c:ValidityConstraintWithContext is an abstract element into which various validity constraints will be substituted, depending upon the IEPD author's intent. In the absence of an explicit context (declared by an c:xPathText attribute), [validity constraint context] defaults to the IEP's document information item as defined in [W3-XML-InfoSet],  section 2.1, "The Document Information Item". In this default case, a specific validity constraint will substitute for c:ValidityConstraint which in turn, substitutes for c:ValidityConstraintWithContext.
+   c:ValidityConstraintWithContext is an abstract element into which various validity constraints will be substituted, depending upon the IEPD author's intent. In the absence of an explicit context (declared by an c:xPathText attribute), [validity constraint context] defaults to the IEP's document information item as defined in [W3C XML InfoSet],  section 2.1, "The Document Information Item". In this default case, a specific validity constraint will substitute for c:ValidityConstraint which in turn, substitutes for c:ValidityConstraintWithContext.
 
 5.6.2.2. c:ValidityConstraint
 
@@ -1391,13 +1391,13 @@ Rule 5-40. Validity contraint context is value of c:xPathText
 
    [Rule 5-40] (IEPD-catalog)
 
-      Given a c:xPathText attribute owned by c:ValidityContext, the [validity constraint context] for the descendant's validity constraint SHALL be the value of c:xPathText evaluated against the IEP's document information item (See [W3-XML-InfoSet],  section 2.1, "The Document Information Item").
+      Given a c:xPathText attribute owned by c:ValidityContext, the [validity constraint context] for the descendant's validity constraint SHALL be the value of c:xPathText evaluated against the IEP's document information item (See [W3C XML InfoSet],  section 2.1, "The Document Information Item").
 
 5.6.2.4. c:HasDocumentElement
 
    c:HasDocumentElement is a validity constraint that identifies all intended XML document elements for an IEP conformance target, and it is directly substitutable for c:ValidityConstraintWithContext. This constraint ensures that an IEP artifact is rooted by one XML document element that is a member of the list of elements in its c:qualifiedNameList attribute. This is a common validity constraint employed by simple IEPDs that declare one or more intended XML document elements.
 
-   Note that [validity constraint context] of c:HasDocumentElement is always on the IEP's document information item as defined in [W3-XML-InfoSet],  section 2.1, "The Document Information Item". This is because it can only declare XML document elements. So, if an IEP defines a payload that may be included in some XML envelope, then c:HasDocumentElement should not be used. Instead, use c:ValidityContext with another specific validity constraint and c:xPathText to explicitly declare [validity constraint context].
+   Note that [validity constraint context] of c:HasDocumentElement is always on the IEP's document information item as defined in [W3C XML InfoSet],  section 2.1, "The Document Information Item". This is because it can only declare XML document elements. So, if an IEP defines a payload that may be included in some XML envelope, then c:HasDocumentElement should not be used. Instead, use c:ValidityContext with another specific validity constraint and c:xPathText to explicitly declare [validity constraint context].
 
    When employing c:HasDocumentElement the following rule applies:
 
@@ -1529,7 +1529,7 @@ Rule 5-45. IEPD Has Conformance Assertion
 
             *  Results? (e.g., issues, pass/fails, warnings, confirmations, etc.)
 
-   Inclusion of a [conformance assertion] made by a reputable, independent, trusted entity (person or organization) would likely increase confidence in conformance. Another strong case can be made by supplementing a conformance assertion with a formal conformance test report or similar artifact. The IEPD catalog schema document provides a c:ConformanceReport element to identify a conformance report if one is present.
+   Inclusion of a [conformance assertion] made by a reputable, independent, trusted entity (person or organization) would likely increase confidence in conformance. Another strong case can be made by supplementing a conformance assertion with a formal conformance test report or similar artifact. The IEPD catalog schema document provides a c:ConformanceReport element to identify a conformance report if one is present. A sample [conformance assertion], Appendix D, Conformance Assertion Example, below, is included in this specification.
 
    In the future, as NIEM procedures and tools advance, a conformance or quality report and a corresponding certificate may become required artifacts. A tool might check conformance and issue the report and certificate together as a digitally signed and hashed artifact that reports conformance, and proves both author and [IEPD] identity (i.e., that the [IEPD] is an unaltered copy of the original). For now, inclusion of an informal [conformance assertion] artifact in an [IEPD] is the only requirement.
 
@@ -2969,9 +2969,9 @@ Appendix G. References
 
    [W3C XML 1.0]: Extensible Markup Language (XML), Version 1.0, Fifth Edition, W3C Recommendation 26 November 2008. Available from http://www.w3.org/TR/2008/REC-xml-20081126/.
 
-   [W3-XML-InfoSet]: XML Information Set, Second Edition, W3C Recommendation 4 February 2004. Available from http://www.w3.org/TR/2004/REC-xml-infoset-20040204/.
+   [W3C XML InfoSet]: XML Information Set, Second Edition, W3C Recommendation 4 February 2004. Available from http://www.w3.org/TR/2004/REC-xml-infoset-20040204/.
 
-   [W3-XML-Namespaces]: Namespaces in XML 1.0, Third Edition, World Wide Web Consortium 8 December 2009. Available from https://www.w3.org/TR/2009/REC-xml-names-20091208/.
+   [W3C XML Namespaces]: Namespaces in XML 1.0, Third Edition, World Wide Web Consortium 8 December 2009. Available from https://www.w3.org/TR/2009/REC-xml-names-20091208/.
 
    [W3C XML Schema Part 2 Datatypes]: XML Schema Part 2: Datatypes, Second Edition, W3C Recommendation 28 October 2004. Available from http://www.w3.org/TR/2004/REC-xmlschema-2-20041028/.
 

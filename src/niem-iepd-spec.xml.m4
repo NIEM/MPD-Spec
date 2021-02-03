@@ -1114,8 +1114,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 					document or document set associated with a given numbered release or domain update.</p>
 
 				<definition term="schema document subset">
-					<p>An XML schema document set based on a reference schema document set intended
-						to ensure that any <termRef>instance XML document</termRef> valid to the
+					<p>An XML schema document set based on a reference schema document set for which any <termRef>instance XML document</termRef> valid to the
 						schema document subset is also valid to the reference schema document
 						set.</p>
 				</definition>
@@ -1664,7 +1663,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 
 			<p>This rule requires validation with <code>MACRO_IEPD_catalog_xsd_name</code>, which
 				also imports a NIEM schema subset. So, validation of the <termRef>IEPD catalog
-					document</termRef> must be done in the context of the catalog schema document,
+				document</termRef> must be done in the context of the catalog schema document,
 				its associated NIEM subset, and <code>iepd-catalog.xml</code>. This does not require
 				the <termRef term="information exchange package documentation">IEPD</termRef> to
 				contain copies of the catalog schema document or the schema subset (since these are
@@ -1675,8 +1674,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 				document</termRef> are available on the <ref idref="NIEM-Template-IEPD-Repository"/>. Note
 				that validators often require references to schemas and their imports. This may be
 				done through a command line instruction or by adding a <code>schemaLocation</code>
-				attribute to <qName>xs:import</qName> statements.</p>
-
+				attribute to <qName>xs:import</qName> statements. A sample <termRef>IEPD catalog document</termRef>, <ref idref="IEPD-Catalog-Document-CoT"/> is included in this specification.</p>
 
 			<section id="IEPD-Catalog-TOC">
 				<title>IEPD Catalog as a Table of Contents</title>
@@ -3823,7 +3821,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 				confidence in conformance. Another strong case can be made by supplementing a
 				conformance assertion with a formal conformance test report or similar artifact. The
 				IEPD catalog schema document provides a <qName>c:ConformanceReport</qName> element
-				to identify a conformance report if one is present.</p>
+				to identify a conformance report if one is present. A sample <termRef>conformance assertion</termRef>, <ref idref="Conformance-Assertion-Example"/> is included in this specification.</p>
 
 			<p>In the future, as NIEM procedures and tools advance, a conformance or quality report
 				and a corresponding certificate may become required artifacts. A tool might check
@@ -5228,12 +5226,12 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 					<link>http://www.w3.org/TR/2008/REC-xml-20081126/</link>.</p>
 		</reference>
 
-		<reference id="W3-XML-InfoSet">
+		<reference id="W3-XML-InfoSet" label="W3C XML InfoSet">
 			<p><em>XML Information Set</em>, Second Edition, W3C Recommendation 4 February 2004.
 				Available from <link>http://www.w3.org/TR/2004/REC-xml-infoset-20040204/</link>.</p>
 		</reference>
 
-		<reference id="W3-XML-Namespaces">
+		<reference id="W3-XML-Namespaces" label="W3C XML Namespaces">
 			<p><em>Namespaces in XML 1.0</em>, Third Edition, World Wide Web Consortium 8 December 2009.
 				Available from <link>https://www.w3.org/TR/2009/REC-xml-names-20091208/</link>.</p>
 		</reference>
