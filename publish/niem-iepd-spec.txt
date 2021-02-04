@@ -2,7 +2,7 @@ National Information Exchange Model -- Information Exchange Package Documentatio
 
 Version 5.0beta1
 
-December 17, 2020
+February 4, 2021
 
 NIEM Technical Architecture Committee (NTAC)
 
