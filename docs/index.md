@@ -6,7 +6,7 @@ This document specifies normative rules and non-normative guidance for building 
 
 # Current version
 
-- [Version 5.0beta1](draft/)
+- [Version 5.0RC1](draft/)
 
 # Previous versions
 
