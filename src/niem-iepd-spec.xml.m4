@@ -7,10 +7,8 @@
 	<title>National Information Exchange Model <char name="mdash"/> Information Exchange Package
 		Documentation Specification</title>
 	<version>MACRO_document_version</version>
-	<date>2021-02-04</date>
+	<date>2021-03-05</date>
 	<author>NIEM Technical Architecture Committee (NTAC)</author>
-
-	<image src="img/niem-logo-sm.png"/>
 
 	<!-- ################################################################# -->
 
