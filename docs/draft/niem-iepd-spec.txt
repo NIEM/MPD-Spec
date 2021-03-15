@@ -2939,15 +2939,15 @@ Appendix G. References
 
    [Logical Entity Exchange Specifications]: Logical Entity Exchange Specifications, Version 5.0, 12 October 2016. Available from https://it.ojp.gov/NISS/iepd/457.
 
-   [NIEM Code List Specification]: Webb Roberts, ed. "National Information Exchange Model Code Lists Specification" NIEM Technical Architecture Committee (NTAC). https://reference.niem.gov/niem/specification/code-lists/.
+   [NIEM Code List Specification]: Webb Roberts, ed. "National Information Exchange Model Code Lists Specification," Version 4.0, NIEM Technical Architecture Committee (NTAC). Available from https://reference.niem.gov/niem/specification/code-lists/4.0/.
 
-   [NIEM Conformance Specification]: Webb Roberts, ed. "National Information Exchange Model Conformance Specification", NIEM Technical Architecture Committee (NTAC). https://reference.niem.gov/niem/specification/conformance/.
+   [NIEM Conformance Specification]: Jim Cabral, ed. "National Information Exchange Model Conformance Specification," Version 5.0, NIEM Technical Architecture Committee (NTAC). Available from https://reference.niem.gov/niem/specification/conformance/5.0/.
 
-   [NIEM Conformance Targets Attribute Specification]: NIEM Conformance Targets Attribute Specification NIEM Technical Architecture Committee (NTAC). Available from https://reference.niem.gov/niem/specification/conformance-targets-attribute/.
+   [NIEM Conformance Targets Attribute Specification]: NIEM Conformance Targets Attribute Specification, Version 3.0, NIEM Technical Architecture Committee (NTAC). Available from https://reference.niem.gov/niem/specification/conformance-targets-attribute/3.0/.
 
-   [NIEM High-Level Version Architecture]: NIEM High Level Version Architecture (HLVA), NIEM Technical Architecture Committee. Available from https://reference.niem.gov/niem/specification/high-level-version-architecture/.
+   [NIEM High-Level Version Architecture]: NIEM High Level Version Architecture (HLVA), Version 3.0, NIEM Technical Architecture Committee. Available from https://reference.niem.gov/niem/specification/high-level-version-architecture/3.0/.
 
-   [NIEM Naming and Design Rules]: Webb Roberts. "National Information Exchange Model Naming and Design Rules" NIEM Technical Architecture Committee (NTAC). https://reference.niem.gov/niem/specification/naming-and-design-rules/.
+   [NIEM Naming and Design Rules]: Webb Roberts. "National Information Exchange Model Naming and Design Rules," Version 5.0, NIEM Technical Architecture Committee (NTAC). https://reference.niem.gov/niem/specification/naming-and-design-rules/5.0/.
 
    [NIEM SSGT]: "NIEM Schema Subset Generation Tool" (SSGT). Available from http://tools.niem.gov/niemtools/ssgt/index.iepd.
 

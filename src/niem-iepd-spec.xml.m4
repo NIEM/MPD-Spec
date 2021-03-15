@@ -5144,30 +5144,29 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 		</reference>
 
 		<reference id="NIEM-CodeLists" label="NIEM Code List Specification">
-			<p>Webb Roberts, ed. <q>National Information Exchange Model Code Lists Specification</q> NIEM Technical Architecture Committee (NTAC).
-				<link>https://reference.niem.gov/niem/specification/code-lists/</link>.</p>
+			<p>Webb Roberts, ed. <q>National Information Exchange Model Code Lists Specification,</q> Version 4.0, NIEM Technical Architecture Committee (NTAC). Available from
+				<link>https://reference.niem.gov/niem/specification/code-lists/4.0/</link>.</p>
 		</reference>
 		
 		<reference id="NIEM-Conformance" label="NIEM Conformance Specification">
-			<p>Webb Roberts, ed. <q>National Information Exchange Model Conformance Specification</q>, NIEM Technical Architecture Committee (NTAC).
-				<link>https://reference.niem.gov/niem/specification/conformance/</link>.</p>
+			<p>Jim Cabral, ed. <q>National Information Exchange Model Conformance Specification,</q> Version 5.0, NIEM Technical Architecture Committee (NTAC). Available from
+				<link>https://reference.niem.gov/niem/specification/conformance/5.0/</link>.</p>
 		</reference>
 		
 		<reference id="NIEM-CTAS" label="NIEM Conformance Targets Attribute Specification">
-			<p><em>NIEM Conformance Targets Attribute Specification</em> NIEM
-				Technical Architecture Committee (NTAC). Available from
-				<link>https://reference.niem.gov/niem/specification/conformance-targets-attribute/</link>.</p>
+			<p><em>NIEM Conformance Targets Attribute Specification</em>, Version 3.0, NIEM
+				Technical Architecture Committee (NTAC). Available from				<link>https://reference.niem.gov/niem/specification/conformance-targets-attribute/3.0/</link>.</p>
 		</reference>
 
 		<reference id="NIEM-HLVA" label="NIEM High-Level Version Architecture">
-			<p><em>NIEM High Level Version Architecture (HLVA)</em>, NIEM Technical
+			<p><em>NIEM High Level Version Architecture (HLVA)</em>, Version 3.0, NIEM Technical
 				Architecture Committee. Available from
-				<link>https://reference.niem.gov/niem/specification/high-level-version-architecture/</link>.</p>
+				<link>https://reference.niem.gov/niem/specification/high-level-version-architecture/3.0/</link>.</p>
 		</reference>
 
 		<reference id="NIEM-NDR" label="NIEM Naming and Design Rules">
-			<p>Webb Roberts. <q>National Information Exchange Model Naming and Design Rules</q> NIEM Technical Architecture Committee (NTAC).
-				<link>https://reference.niem.gov/niem/specification/naming-and-design-rules/</link>.</p>
+			<p>Webb Roberts. <q>National Information Exchange Model Naming and Design Rules,</q> Version 5.0, NIEM Technical Architecture Committee (NTAC).
+				<link>https://reference.niem.gov/niem/specification/naming-and-design-rules/5.0/</link>.</p>
 		</reference>
 
 		<reference id="NIEM-SSGT" label="NIEM SSGT">
