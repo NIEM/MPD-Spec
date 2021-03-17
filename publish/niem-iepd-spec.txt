@@ -2921,69 +2921,69 @@ Appendix F. Acronyms and Abbreviations
 
 Appendix G. References
 
-   [BCP 14]: Internet Engineering Task Force Best Current Practice 14. Available from https://www.ietf.org/rfc/bcp/bcp14.txt. BCP 14 is composed of:
+   [BCP 14]: "Internet Engineering Task Force Best Current Practice 14." Available from https://www.ietf.org/rfc/bcp/bcp14.txt. BCP 14 is composed of:
 
-         [RFC 2119]: Bradner, S., "Key words for use in RFCs to Indicate Requirement Levels", BCP 14, RFC 2119, March 1997. Available from http://www.ietf.org/rfc/rfc2119.txt.
+         [RFC 2119]: Bradner, S., "Key words for use in RFCs to Indicate Requirement Levels," BCP 14, RFC 2119, March 1997. Available from http://www.ietf.org/rfc/rfc2119.txt.
 
-         [RFC 8174]: Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words", BCP 14, RFC 8174, May 2017. Available from https://www.ietf.org/rfc/rfc8174.txt.
+         [RFC 8174]: Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words," BCP 14, RFC 8174, May 2017. Available from https://www.ietf.org/rfc/rfc8174.txt.
 
-   [FEA Data Reference Model 1.0]: The Federal Enterprise Architecture Data Reference Model, Version 1.0, September 2004. The version 1.0 document is longer publicly available. A more recent DRM Version 2.0, 17 November 2005 is available from https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/egov_docs/DRM_2_0_Final.pdf
+   [FEA Data Reference Model 1.0]: "The Federal Enterprise Architecture Data Reference Model," Version 1.0, September 2004. The version 1.0 document is longer publicly available. A more recent DRM Version 2.0, 17 November 2005 is available from https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/egov_docs/DRM_2_0_Final.pdf
 
-   [GJXDM IEPD Guidelines 1.1]: GJXDM Information Exchange Package Documentation Guidelines, Version 1.1, Global XML Structure Task Force (GXSTF), 2 March 2005. Available from http://it.ojp.gov/documents/global_jxdm_IEPD_guidelines_v1_1.pdf
+   [GJXDM IEPD Guidelines 1.1]: "GJXDM Information Exchange Package Documentation Guidelines," Version 1.1, Global XML Structure Task Force (GXSTF), 2 March 2005. Available from http://it.ojp.gov/documents/global_jxdm_IEPD_guidelines_v1_1.pdf
 
-   [ISO 11179-4]: ISO/IEC 11179-4 Information Technology -- Metadata Registries (MDR) -- Part 4: Formulation of Data Definitions Second Edition, 15 July 2004. Available from http://standards.iso.org/ittf/PubliclyAvailableStandards/c035346_ISO_IEC_11179-4_2004(E).zip.
+   [ISO 11179-4]: "ISO/IEC 11179-4 Information Technology -- Metadata Registries (MDR) -- Part 4: Formulation of Data Definitions Second Edition," 15 July 2004. Available from http://standards.iso.org/ittf/PubliclyAvailableStandards/c035346_ISO_IEC_11179-4_2004(E).zip.
 
-   [ISO RelaxNG]: Document Schema Definition Language (DSDL) -- Part 2: Regular-grammar-based validation -- RELAX NG, ISO/IEC 19757-2:2008, Second Edition, 15 December 2008. Available from http://standards.iso.org/ittf/PubliclyAvailableStandards/c052348_ISO_IEC_19757-2_2008(E).zip. See also http://relaxng.org.
+   [ISO RelaxNG]: "Document Schema Definition Language (DSDL) -- Part 2: Regular-grammar-based validation -- RELAX NG," ISO/IEC 19757-2:2008, Second Edition, 15 December 2008. Available from http://standards.iso.org/ittf/PubliclyAvailableStandards/c052348_ISO_IEC_19757-2_2008(E).zip. See also http://relaxng.org.
 
-   [ISO Schematron]: Document Schema Definition Languages (DSDL) -- Part 3: Rule-based validation using Schematron, ISO/IEC 19757-3:2020, Third Edition, 2020-06. Available from https://www.iso.org/standard/74515.html.
+   [ISO Schematron]: "Document Schema Definition Languages (DSDL) -- Part 3: Rule-based validation using Schematron," ISO/IEC 19757-3:2020, Third Edition, 2020-06. Available from https://www.iso.org/standard/74515.html.
 
-   [Logical Entity Exchange Specifications]: Logical Entity Exchange Specifications, Version 5.0, 12 October 2016. Available from https://it.ojp.gov/NISS/iepd/457.
+   [Logical Entity Exchange Specifications]: "Logical Entity Exchange Specifications," Version 5.0, 12 October 2016. Available from https://it.ojp.gov/NISS/iepd/457.
 
    [NIEM Code List Specification]: Webb Roberts, ed. "National Information Exchange Model Code Lists Specification," Version 4.0, NIEM Technical Architecture Committee (NTAC). Available from https://reference.niem.gov/niem/specification/code-lists/4.0/.
 
-   [NIEM Conformance Specification]: Jim Cabral, ed. "National Information Exchange Model Conformance Specification," Version 5.0, NIEM Technical Architecture Committee (NTAC). Available from https://reference.niem.gov/niem/specification/conformance/5.0/.
+   [NIEM Conformance Specification]: "National Information Exchange Model Conformance Specification," Version 5.0, NIEM Technical Architecture Committee (NTAC). Available from https://reference.niem.gov/niem/specification/conformance/5.0/.
 
-   [NIEM Conformance Targets Attribute Specification]: NIEM Conformance Targets Attribute Specification, Version 3.0, NIEM Technical Architecture Committee (NTAC). Available from https://reference.niem.gov/niem/specification/conformance-targets-attribute/3.0/.
+   [NIEM Conformance Targets Attribute Specification]: "NIEM Conformance Targets Attribute Specification," Version 3.0, NIEM Technical Architecture Committee (NTAC). Available from https://reference.niem.gov/niem/specification/conformance-targets-attribute/3.0/.
 
-   [NIEM High-Level Version Architecture]: NIEM High Level Version Architecture (HLVA), Version 3.0, NIEM Technical Architecture Committee. Available from https://reference.niem.gov/niem/specification/high-level-version-architecture/3.0/.
+   [NIEM High-Level Version Architecture]: "NIEM High Level Version Architecture (HLVA)," Version 3.0, NIEM Technical Architecture Committee. Available from https://reference.niem.gov/niem/specification/high-level-version-architecture/3.0/.
 
    [NIEM Naming and Design Rules]: Webb Roberts. "National Information Exchange Model Naming and Design Rules," Version 5.0, NIEM Technical Architecture Committee (NTAC). https://reference.niem.gov/niem/specification/naming-and-design-rules/5.0/.
 
-   [NIEM SSGT]: "NIEM Schema Subset Generation Tool" (SSGT). Available from http://tools.niem.gov/niemtools/ssgt/index.iepd.
+   [NIEM SSGT]: "NIEM Schema Subset Generation Tool (SSGT)." Available from http://tools.niem.gov/niemtools/ssgt/index.iepd.
 
    [NIEM TechHub]: NIEM's TechHub provides the developer community with resources and training that will help them use NIEM. Available from https://niem.github.io/.
 
    [NIEM Template IEPD repository]: The NIEM Template IEPD can be used as a starting point or a reference for developing a new IEPD. Available from https://github.com/NIEM/Template-IEPD/.
 
-   [XML Catalogs 1.1]: XML Catalogs, Organization for the Advancement of Structured Information Standards (OASIS) Standard v1.1, 7 October 2005. Available from https://www.oasis-open.org/committees/download.php/14809/std-entity-xml-catalogs-1.1.html.
+   [XML Catalogs 1.1]: "XML Catalogs," Organization for the Advancement of Structured Information Standards (OASIS) Standard v1.1, 7 October 2005. Available from https://www.oasis-open.org/committees/download.php/14809/std-entity-xml-catalogs-1.1.html.
 
-   [PKZIP]: APPNOTE.TXT - .ZIP File Format Specification, Version: 6.3.2, Revised: 28 September 2007, Copyright (c) 1989 - 2007 PKWare Inc. Available from http://www.pkware.com/documents/casestudies/APPNOTE.TXT.
+   [PKZIP]: "APPNOTE.TXT - .ZIP File Format Specification," Version: 6.3.2, Revised: 28 September 2007, Copyright (c) 1989 - 2007 PKWare Inc. Available from http://www.pkware.com/documents/casestudies/APPNOTE.TXT.
 
-   [Principles of Data Integration]: Doan, A., Halevy, A., and Ives, X. (2012), Principles of Data Integration, New York, NY: Morgan Kaufmann.
+   [Principles of Data Integration]: Doan, A., Halevy, A., and Ives, X. (2012), "Principles of Data Integration," New York, NY: Morgan Kaufmann.
 
-   [RFC 3986 URI]: Berners-Lee, T., et al., Uniform Resource Identifier (URI): Generic Syntax, Request for Comment 3986, Network Working Group, January 2005. Available from http://tools.ietf.org/html/rfc3986.
+   [RFC 3986 URI]: Berners-Lee, T., et al., "Uniform Resource Identifier (URI): Generic Syntax," Request for Comment 3986, Network Working Group, January 2005. Available from http://tools.ietf.org/html/rfc3986.
 
-   [RFC 3987 IRI]: Duerst, M., and Suignard, M., Internationalized Resource Identifiers (IRIs), Request For Comment 3987, January 2005. Avalailable from http://tools.ietf.org/html/rfc3987.
+   [RFC 3987 IRI]: Duerst, M., and Suignard, M., "Internationalized Resource Identifiers (IRIs)," Request For Comment 3987, January 2005. Avalailable from http://tools.ietf.org/html/rfc3987.
 
-   [EXI Format 1.0]: Efficient XML Interchange (EXI) Format, Version 1.0 (Second Edition), W3C Recommendation, 11 February 2014. Available from http://www.w3.org/TR/2014/REC-exi-20140211/.
+   [EXI Format 1.0]: "Efficient XML Interchange (EXI) Format," Version 1.0 (Second Edition), W3C Recommendation, 11 February 2014. Available from http://www.w3.org/TR/2014/REC-exi-20140211/.
 
-   [W3C XML 1.0]: Extensible Markup Language (XML), Version 1.0, Fifth Edition, W3C Recommendation 26 November 2008. Available from http://www.w3.org/TR/2008/REC-xml-20081126/.
+   [W3C XML 1.0]: "Extensible Markup Language (XML)," Version 1.0, Fifth Edition, W3C Recommendation 26 November 2008. Available from http://www.w3.org/TR/2008/REC-xml-20081126/.
 
-   [W3C XML InfoSet]: XML Information Set, Second Edition, W3C Recommendation 4 February 2004. Available from http://www.w3.org/TR/2004/REC-xml-infoset-20040204/.
+   [W3C XML InfoSet]: "XML Information Set," Second Edition, W3C Recommendation 4 February 2004. Available from http://www.w3.org/TR/2004/REC-xml-infoset-20040204/.
 
-   [W3C XML Namespaces]: Namespaces in XML 1.0, Third Edition, World Wide Web Consortium 8 December 2009. Available from https://www.w3.org/TR/2009/REC-xml-names-20091208/.
+   [W3C XML Namespaces]: "Namespaces in XML 1.0," Third Edition, World Wide Web Consortium 8 December 2009. Available from https://www.w3.org/TR/2009/REC-xml-names-20091208/.
 
-   [W3C XML Schema Part 2 Datatypes]: XML Schema Part 2: Datatypes, Second Edition, W3C Recommendation 28 October 2004. Available from http://www.w3.org/TR/2004/REC-xmlschema-2-20041028/.
+   [W3C XML Schema Part 2 Datatypes]: "XML Schema Part 2: Datatypes," Second Edition, W3C Recommendation 28 October 2004. Available from http://www.w3.org/TR/2004/REC-xmlschema-2-20041028/.
 
-   [W3C XML Schema Part 1 Structures]: XML Schema Part 1: Structures, Second Edition, W3C Recommendation 28 October 2004. Available from http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/.
+   [W3C XML Schema Part 1 Structures]: "XML Schema Part 1: Structures," Second Edition, W3C Recommendation 28 October 2004. Available from http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/.
 
-   [W3C XPath 3.1]: XML Path Language (XPath) 3.1, W3C Recommendation 21 March 2017. Available from https://www.w3.org/TR/2017/REC-xpath-31-20170321/.
+   [W3C XPath 3.1]: "XML Path Language (XPath) 3.1," W3C Recommendation 21 March 2017. Available from https://www.w3.org/TR/2017/REC-xpath-31-20170321/.
 
-   [XSLT 1.0]: XSL Transformations (XSLT), Version 1.0, W3C Recommendation 16 November 1999. Available from http://www.w3.org/TR/1999/REC-xslt-19991116.
+   [XSLT 1.0]: "XSL Transformations (XSLT)," Version 1.0, W3C Recommendation 16 November 1999. Available from http://www.w3.org/TR/1999/REC-xslt-19991116.
 
-   [XSLT 2.0]: XSL Transformations (XSLT), Version 2.0, Second Edition, W3C Recommendation 21 April 2009. Available from https://www.w3.org/TR/2009/PER-xslt20-20090421/.
+   [XSLT 2.0]: "XSL Transformations (XSLT)," Version 2.0, Second Edition, W3C Recommendation 21 April 2009. Available from https://www.w3.org/TR/2009/PER-xslt20-20090421/.
 
-   [XSLT 3.0]: XSL Transformations (XSLT), Version 3.0, W3C Recommendation 8 June 2017. Available from https://www.w3.org/TR/2017/REC-xslt-30-20170608/.
+   [XSLT 3.0]: "XSL Transformations (XSLT)," Version 3.0, W3C Recommendation 8 June 2017. Available from https://www.w3.org/TR/2017/REC-xslt-30-20170608/.
 
 Appendix H. Index of Definitions
 

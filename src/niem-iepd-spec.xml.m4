@@ -5087,16 +5087,16 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 		<title>References</title>
 
 		<reference id="BCP14" label="BCP 14">
-			<p>Internet Engineering Task Force Best Current Practice 14. Available from
+			<p><q>Internet Engineering Task Force Best Current Practice 14.</q> Available from
 					<link>https://www.ietf.org/rfc/bcp/bcp14.txt</link>. BCP 14 is composed of:</p>
 			<sub>
 				<reference id="RFC2119" label="RFC 2119">
-					<p>Bradner, S., <q>Key words for use in RFCs to Indicate Requirement Levels</q>,
+					<p>Bradner, S., <q>Key words for use in RFCs to Indicate Requirement Levels,</q>
 						BCP 14, RFC 2119, March 1997. Available from
 							<link>http://www.ietf.org/rfc/rfc2119.txt</link>.</p>
 				</reference>
 				<reference id="RFC8174" label="RFC 8174">
-					<p>Leiba, B., <q>Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words</q>,
+					<p>Leiba, B., <q>Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words,</q>
 						BCP 14, RFC 8174, May 2017. Available from
 							<link>https://www.ietf.org/rfc/rfc8174.txt</link>.</p>
 				</reference>
@@ -5104,42 +5104,42 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 		</reference>
 
 		<reference id="FEA-DRM" label="FEA Data Reference Model 1.0">
-			<p><em>The Federal Enterprise Architecture Data Reference Model</em>, Version 1.0,
+			<p><q>The Federal Enterprise Architecture Data Reference Model,</q> Version 1.0,
 				September 2004. The version 1.0 document is longer publicly available. A more recent DRM
 				Version 2.0, 17 November 2005 is available from
 			<link>https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/egov_docs/DRM_2_0_Final.pdf</link></p>
 		</reference>
 
 		<reference id="GJXDM-IEPD" label="GJXDM IEPD Guidelines 1.1">
-			<p><em>GJXDM Information Exchange Package Documentation Guidelines</em>, Version 1.1,
+			<p><q>GJXDM Information Exchange Package Documentation Guidelines,</q> Version 1.1,
 				Global XML Structure Task Force (GXSTF), 2 March 2005. Available from
 					<link>http://it.ojp.gov/documents/global_jxdm_IEPD_guidelines_v1_1.pdf</link></p>
 		</reference>
 
 		<reference id="ISO-11179-4" label="ISO 11179-4">
-			<p><em>ISO/IEC 11179-4 Information Technology <char name="mdash"/> Metadata Registries
+			<p><q>ISO/IEC 11179-4 Information Technology <char name="mdash"/> Metadata Registries
 					(MDR) <char name="mdash"/> Part 4: Formulation of Data Definitions Second
-					Edition,</em> 15 July 2004. Available from
+					Edition,</q> 15 July 2004. Available from
 					<link>http://standards.iso.org/ittf/PubliclyAvailableStandards/c035346_ISO_IEC_11179-4_2004(E).zip</link>.</p>
 		</reference>
 
 		<reference id="ISO-RelaxNG" label="ISO RelaxNG">
-			<p><em>Document Schema Definition Language (DSDL) <char name="mdash"/> Part 2:
-					Regular-grammar-based validation <char name="mdash"/> RELAX NG</em>, ISO/IEC
+			<p><q>Document Schema Definition Language (DSDL) <char name="mdash"/> Part 2:
+					Regular-grammar-based validation <char name="mdash"/> RELAX NG,</q> ISO/IEC
 				19757-2:2008, Second Edition, 15 December 2008. Available from
 					<link>http://standards.iso.org/ittf/PubliclyAvailableStandards/c052348_ISO_IEC_19757-2_2008(E).zip</link>.
 				See also <link>http://relaxng.org</link>.</p>
 		</reference>
 		
 		<reference id="ISO-Schematron" label="ISO Schematron">
-			<p><em>Document Schema Definition Languages (DSDL) <char name="mdash"/> Part 3: Rule-based
-				validation using Schematron</em>, ISO/IEC 19757-3:2020, Third
+			<p><q>Document Schema Definition Languages (DSDL) <char name="mdash"/> Part 3: Rule-based
+				validation using Schematron,</q> ISO/IEC 19757-3:2020, Third
 				Edition, 2020-06. Available from
 				<link>https://www.iso.org/standard/74515.html</link>.</p>
 		</reference>
 
 		<reference id="LEXS" label="Logical Entity Exchange Specifications">
-			<p><em>Logical Entity Exchange Specifications</em>, Version 5.0, 12 October 2016. Available
+			<p><q>Logical Entity Exchange Specifications,</q> Version 5.0, 12 October 2016. Available
 				from <link>https://it.ojp.gov/NISS/iepd/457</link>.</p>
 		</reference>
 
@@ -5149,17 +5149,17 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 		</reference>
 		
 		<reference id="NIEM-Conformance" label="NIEM Conformance Specification">
-			<p>Jim Cabral, ed. <q>National Information Exchange Model Conformance Specification,</q> Version 5.0, NIEM Technical Architecture Committee (NTAC). Available from
+			<p><q>National Information Exchange Model Conformance Specification,</q> Version 5.0, NIEM Technical Architecture Committee (NTAC). Available from
 				<link>https://reference.niem.gov/niem/specification/conformance/5.0/</link>.</p>
 		</reference>
 		
 		<reference id="NIEM-CTAS" label="NIEM Conformance Targets Attribute Specification">
-			<p><em>NIEM Conformance Targets Attribute Specification</em>, Version 3.0, NIEM
+			<p><q>NIEM Conformance Targets Attribute Specification,</q> Version 3.0, NIEM
 				Technical Architecture Committee (NTAC). Available from				<link>https://reference.niem.gov/niem/specification/conformance-targets-attribute/3.0/</link>.</p>
 		</reference>
 
 		<reference id="NIEM-HLVA" label="NIEM High-Level Version Architecture">
-			<p><em>NIEM High Level Version Architecture (HLVA)</em>, Version 3.0, NIEM Technical
+			<p><q>NIEM High Level Version Architecture (HLVA),</q> Version 3.0, NIEM Technical
 				Architecture Committee. Available from
 				<link>https://reference.niem.gov/niem/specification/high-level-version-architecture/3.0/</link>.</p>
 		</reference>
@@ -5170,7 +5170,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 		</reference>
 
 		<reference id="NIEM-SSGT" label="NIEM SSGT">
-			<p><q>NIEM Schema Subset Generation Tool</q> (SSGT). Available from
+			<p><q>NIEM Schema Subset Generation Tool (SSGT).</q> Available from
 					<link>http://tools.niem.gov/niemtools/ssgt/index.iepd</link>.</p>
 		</reference>
 
@@ -5184,84 +5184,84 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 		</reference>
 		
 		<reference id="OASIS-XML-Catalogs" label="XML Catalogs 1.1">
-			<p><em>XML Catalogs</em>, Organization for the Advancement of Structured Information
+			<p><q>XML Catalogs,</q> Organization for the Advancement of Structured Information
 				Standards (OASIS) Standard v1.1, 7 October 2005. Available from
 					<link>https://www.oasis-open.org/committees/download.php/14809/std-entity-xml-catalogs-1.1.html</link>.</p>
 		</reference>
 
 		<reference id="PKZIP">
-			<p><em>APPNOTE.TXT - .ZIP File Format Specification</em>, Version: 6.3.2, Revised: 28
+			<p><q>APPNOTE.TXT - .ZIP File Format Specification,</q> Version: 6.3.2, Revised: 28
 				September 2007, Copyright (c) 1989 - 2007 PKWare Inc. Available from
 					<link>http://www.pkware.com/documents/casestudies/APPNOTE.TXT</link>.</p>
 		</reference>
 
 		<reference id="Principles-of-Data-Integration" label="Principles of Data Integration">
-			<p>Doan, A., Halevy, A., and Ives, X. (2012), <em>Principles of Data Integration</em>,
+			<p>Doan, A., Halevy, A., and Ives, X. (2012), <q>Principles of Data Integration,</q>
 				New York, NY: Morgan Kaufmann.</p>
 		</reference>
 
 		<reference id="RFC3986-URI" label="RFC 3986 URI">
-			<p>Berners-Lee, T., et al., <em>Uniform Resource Identifier (URI): Generic Syntax</em>,
+			<p>Berners-Lee, T., et al., <q>Uniform Resource Identifier (URI): Generic Syntax,</q>
 				Request for Comment 3986, Network Working Group, January 2005. Available from
 					<link>http://tools.ietf.org/html/rfc3986</link>.</p>
 		</reference>
 
 		<reference id="RFC3987-IRI" label="RFC 3987 IRI">
-			<p>Duerst, M., and Suignard, M., <em>Internationalized Resource Identifiers (IRIs)</em>,
+			<p>Duerst, M., and Suignard, M., <q>Internationalized Resource Identifiers (IRIs),</q>
 				Request For Comment 3987, January 2005. Avalailable from
 					<link>http://tools.ietf.org/html/rfc3987</link>.</p>
 		</reference>
 
 		<reference id="W3-EXI" label="EXI Format 1.0">
-			<p><em>Efficient XML Interchange (EXI) Format</em>, Version 1.0 (Second Edition), W3C Recommendation, 11 February 2014. Available from
+			<p><q>Efficient XML Interchange (EXI) Format,</q> Version 1.0 (Second Edition), W3C Recommendation, 11 February 2014. Available from
 				<link>http://www.w3.org/TR/2014/REC-exi-20140211/</link>.</p>
 		</reference>
 
 		<reference id="W3-XML" label="W3C XML 1.0">
-			<p><em>Extensible Markup Language (XML)</em>, Version 1.0, Fifth Edition, W3C
+			<p><q>Extensible Markup Language (XML),</q> Version 1.0, Fifth Edition, W3C
 				Recommendation 26 November 2008. Available from
 					<link>http://www.w3.org/TR/2008/REC-xml-20081126/</link>.</p>
 		</reference>
 
 		<reference id="W3-XML-InfoSet" label="W3C XML InfoSet">
-			<p><em>XML Information Set</em>, Second Edition, W3C Recommendation 4 February 2004.
+			<p><q>XML Information Set,</q> Second Edition, W3C Recommendation 4 February 2004.
 				Available from <link>http://www.w3.org/TR/2004/REC-xml-infoset-20040204/</link>.</p>
 		</reference>
 
 		<reference id="W3-XML-Namespaces" label="W3C XML Namespaces">
-			<p><em>Namespaces in XML 1.0</em>, Third Edition, World Wide Web Consortium 8 December 2009.
+			<p><q>Namespaces in XML 1.0,</q> Third Edition, World Wide Web Consortium 8 December 2009.
 				Available from <link>https://www.w3.org/TR/2009/REC-xml-names-20091208/</link>.</p>
 		</reference>
 
 		<reference id="W3-XML-Schema-Datatypes" label="W3C XML Schema Part 2 Datatypes">
-			<p><em>XML Schema Part 2: Datatypes</em>, Second Edition, W3C Recommendation 28 October
+			<p><q>XML Schema Part 2: Datatypes,</q> Second Edition, W3C Recommendation 28 October
 				2004. Available from
 					<link>http://www.w3.org/TR/2004/REC-xmlschema-2-20041028/</link>.</p>
 		</reference>
 
 		<reference id="W3-XML-Schema-Structures" label="W3C XML Schema Part 1 Structures">
-			<p><em>XML Schema Part 1: Structures</em>, Second Edition, W3C Recommendation 28 October
+			<p><q>XML Schema Part 1: Structures,</q> Second Edition, W3C Recommendation 28 October
 				2004. Available from
 					<link>http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/</link>.</p>
 		</reference>
 
 		<reference id="W3-XPath" label="W3C XPath 3.1">
-			<p><em>XML Path Language (XPath) 3.1</em>, W3C Recommendation 21 March 2017. Available from
+			<p><q>XML Path Language (XPath) 3.1,</q> W3C Recommendation 21 March 2017. Available from
 				<link>https://www.w3.org/TR/2017/REC-xpath-31-20170321/</link>.</p>
 		</reference>
 
 		<reference id="W3-XSLT" label="XSLT 1.0">
-			<p><em>XSL Transformations (XSLT)</em>, Version 1.0, W3C Recommendation 16 November
+			<p><q>XSL Transformations (XSLT),</q> Version 1.0, W3C Recommendation 16 November
 				1999. Available from <link>http://www.w3.org/TR/1999/REC-xslt-19991116</link>.</p>
 		</reference>
 
 		<reference id="W3-XSLT2" label="XSLT 2.0">
-			<p><em>XSL Transformations (XSLT)</em>, Version 2.0, Second Edition, W3C Recommendation 21 April 2009.
+			<p><q>XSL Transformations (XSLT),</q> Version 2.0, Second Edition, W3C Recommendation 21 April 2009.
 				Available from <link>https://www.w3.org/TR/2009/PER-xslt20-20090421/</link>.</p>
 		</reference>
 		
 		<reference id="W3-XSLT3" label="XSLT 3.0">
-			<p><em>XSL Transformations (XSLT)</em>, Version 3.0, W3C Recommendation 8 June 2017.
+			<p><q>XSL Transformations (XSLT),</q> Version 3.0, W3C Recommendation 8 June 2017.
 				Available from <link>https://www.w3.org/TR/2017/REC-xslt-30-20170608/</link>.</p>
 		</reference>
 
