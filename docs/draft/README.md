@@ -8,4 +8,3 @@ This document is tracked in version control at <https://github.com/NIEM/MPD-Spec
 
 - [niem-iepd-spec.html](niem-iepd-spec.html): NIEM Information Exchange Package Documentation Specification (HTML)
 - [niem-iepd-spec.txt](niem-iepd-spec.txt): NIEM Information Exchange Package Documentation Specification (plain text)
-- [iepd-catalog-schema](iepd-catalog-schema): Example IEPD Catalog and supporting schemas
