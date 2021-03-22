@@ -7,10 +7,8 @@
 	<title>National Information Exchange Model <char name="mdash"/> Information Exchange Package
 		Documentation Specification</title>
 	<version>MACRO_document_version</version>
-	<date>2021-02-04</date>
+	<date>2021-03-05</date>
 	<author>NIEM Technical Architecture Committee (NTAC)</author>
-
-	<image src="img/niem-logo-sm.png"/>
 
 	<!-- ################################################################# -->
 
@@ -4468,7 +4466,7 @@ xs          http://www.w3.org/2001/XMLSchema</pre>
 		<p>Below is a simple example of an IEPD catalog document for a <em>Cursor on Target</em>
 			<termRef term="information exchange package documentation">IEPD</termRef>. The entire
 			<termRef term="information exchange package documentation">IEPD</termRef> and other example IEPDs and supporting artifacts are available on the <ref idref="NIEM-Template-IEPD-Repository"/>.</p>
-		<pre><include-text href="xsd/sample.5/iepd-catalog.xml"/></pre>
+		<pre><include-text href="xsd/iepd-catalog.xml"/></pre>
 
 		<p>
 			<char name="nbsp"/>

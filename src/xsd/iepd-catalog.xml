@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <c:IEPDCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://reference.niem.gov/niem/resource/iepd/catalog/5.0/ ../iepd-catalog.xsd"
+    xsi:schemaLocation="http://reference.niem.gov/niem/resource/iepd/catalog/5.0/ iepd-catalog.xsd"
     xmlns:c="http://reference.niem.gov/niem/resource/iepd/catalog/5.0/"
     xmlns:nc="http://release.niem.gov/niem/niem-core/5.0/"
     xmlns:structures="http://release.niem.gov/niem/structures/5.0/"
